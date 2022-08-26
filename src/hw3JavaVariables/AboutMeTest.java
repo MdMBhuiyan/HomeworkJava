@@ -8,6 +8,7 @@ public class AboutMeTest {
 				+ info1.sex + ". My overall GPA at The City College is " + info1.GPA + "."
 				+ " \nMy desired yearly salary is " + info1.salary + "k" + ". But I am not a citizen : "
 				+ info1.US_citizen + ".");
+		System.out.println(info1.name);
 
 	}
 
