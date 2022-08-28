@@ -9,4 +9,7 @@ public class ColumbiaUniversity {
 		
 	}
 	
+	public ColumbiaUniversity () {
+		// Constructor can be created in regular class
+	}
 }
