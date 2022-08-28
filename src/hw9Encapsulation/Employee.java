@@ -1,12 +1,14 @@
 package hw9Encapsulation;
 
-import java.security.PublicKey;
+
 
 public class Employee {
 	private String name; //Md Bhuiyan
 	private int age;
 	private char sex;
 	private boolean usCitizen;
+	
+	
 	public String getName() {
 		return name;
 	}
