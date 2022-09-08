@@ -1,18 +1,23 @@
 package hw9Abstraction;
 
-public interface University  extends College, Hospital {
-	// Interface does not allow implemented method but only declared. 
-	public void classSize(); 
-	/* A constructor is not allowed in interface because interfaces are static final
-	 * by default.*/
+public interface University extends College, Hospital {
+	// Interface does not allow implemented method but only declared.
+	public void classSize();
+
+	/*
+	 * A constructor is not allowed in interface because interfaces are static final
+	 * by default.
+	 */
 	public void playGround();
+
 	public void teacher();
-	
-	public default void gymnasium () {
-		
+
+	public default void gymnasium() {
+
 	}
+
 	public static void library() {
-		
+
 	}
 }
 // Only one (extends) keyword is used between two interface classes. 

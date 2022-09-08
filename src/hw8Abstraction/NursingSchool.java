@@ -6,8 +6,5 @@ public abstract class NursingSchool {
 	}
 	public NursingSchool () { // Constructor can be made in an Abstract Class. 
 		System.out.println("This is Default Constructor from Nursingschool Class");
-		
+		}
 	}
-	
-
-}

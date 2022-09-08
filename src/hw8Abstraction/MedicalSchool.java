@@ -9,5 +9,4 @@ public abstract class MedicalSchool {
 	} /* A Constructor can be created inside MedicalSchool Abstract Class because
 	abstract class can have variables of all access modifiers.
 	*/
-
 }

@@ -3,5 +3,4 @@ public class Birds extends Animal {  // Animal is parent class and Birds is chil
 	public void birdsInfo () {
 		System.out.println("This method is from Birds Class");
 	}
-
 }
